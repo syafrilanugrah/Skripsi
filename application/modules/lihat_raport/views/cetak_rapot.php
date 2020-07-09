@@ -135,7 +135,7 @@
 			</td>
 		</tr>
 
-		<tr>
+		<!-- <tr>
 			<td colspan="6">
 				<br><br>
 				<table width="100%">
@@ -167,7 +167,7 @@
 				</table>
 
 			</td>
-		</tr>
+		</tr> -->
 
 		</tbody>
 	</table>

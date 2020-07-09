@@ -17,7 +17,7 @@ $config['pnp_a'] = 1; // porsi nilai UAS
 $config['kkm'] = 70;
 $config['session_name_prefix'] = "app_rapot_";
 $config['is_kemenag'] = TRUE;
-$config['nama_sekolah'] = "MTs Negeri 5 Kulon Progo";
+$config['nama_sekolah'] = "SMK NEGERI 2 PAREPARE";
 $config['alamat_sekolah'] = "Sumoroto, Sidoharjo, Samigaluh";
 $config['kota_sekolah'] = "Kulon Progo";
 

@@ -17,7 +17,7 @@
                     <thead>
                         <td width="10%">No</td>
                         <td width="20%">Tingkat</td>
-                        <td width="25%">Nama</td>
+                        <td width="25%">Kelas</td>
                         <td width="25%">Jurusan</td>
                         <td width="20%">Aksi</td>
                     </thead>

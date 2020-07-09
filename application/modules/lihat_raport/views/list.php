@@ -21,7 +21,7 @@
                         <tr>
                             <th width="5%">No</th>
                             <th width="40%">Nama</th>
-                            <th width="50%">Cetak</th>
+                            <th width="50%">Lihat</th>
                         </tr>
                     </thead>
 
@@ -38,10 +38,10 @@
                                 <td><?php echo $no; ?></td>
                                 <td><?php echo "Semester ".$i." / ".$sk['ta']."-".($sk['ta']+1); ?></td>
                                 <td>
-                                    <a href="<?php echo base_url().$url."/sampul1/".$sk['id_siswa']; ?>" class="btn btn-success btn-sm" target="_blank"><i  class="fa fa-print"></i> S 1</a>
-                                    <a href="<?php echo base_url().$url."/sampul2/".$sk['id_siswa']; ?>" class="btn btn-success btn-sm" target="_blank"><i  class="fa fa-print"></i> S 2</a>
-                                    <a href="<?php echo base_url().$url."/sampul4/".$sk['id_siswa']; ?>" class="btn btn-success btn-sm" target="_blank"><i  class="fa fa-print"></i> S 4</a>
-                                    <a href="<?php echo base_url().$url."/cetak/".$sk['id_siswa']."/".$tasm; ?>" class="btn btn-success btn-sm" target="_blank"><i  class="fa fa-print"></i> Raport</a>
+                                    <!-- <a href="<?//php echo base_url().$url."/sampul1/".$sk['id_siswa']; ?>" class="btn btn-success btn-sm" target="_blank"><i  class="fa fa-print"></i> S 1</a>
+                                    <a href="<?//php echo base_url().$url."/sampul2/".$sk['id_siswa']; ?>" class="btn btn-success btn-sm" target="_blank"><i  class="fa fa-print"></i> S 2</a>
+                                    <a href="<?//php echo base_url().$url."/sampul4/".$sk['id_siswa']; ?>" class="btn btn-success btn-sm" target="_blank"><i  class="fa fa-print"></i> S 4</a> -->
+                                    <a href="<?php echo base_url().$url."/cetak/".$sk['id_siswa']."/".$tasm; ?>" class="btn btn-success btn-sm" target="_blank"><i  class="fa fa-eye"></i> Raport</a>
                                 </td>
                             </tr>
                         <?php 
